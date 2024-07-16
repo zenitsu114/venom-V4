@@ -85,7 +85,7 @@ async def genkey(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
                 save_keys()
                 response = f"Key generated: {key}\nExpires on: {expiration_date}"
             except ValueError:
-                response = "Please specify a valid number and unit of time (hours/days) script by @venomXcrazy."
+                response = "Please specify a valid number and unit of time (hours/days) script by @{OWNER_USERNAME}."
         else:
             response = "Usage: /genkey <amount> <hours/days>"
     else:
