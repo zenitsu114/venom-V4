@@ -10,10 +10,10 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
 # Insert your Telegram bot token here
-BOT_TOKEN = '6658426503:AAGXyi266msKeGxpbzo4VarIfA5JlqBZUDQ'
+BOT_TOKEN = '7255048090:AAFpMpH9KDNrr3BpnlAlraE5c2UkqhlSY5w'
  
 # Admin user IDs
-ADMIN_IDS = {"881808734"}
+ADMIN_IDS = {"5588464519"}
 
 
 USER_FILE = "users.json"
@@ -94,7 +94,7 @@ async def genkey(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         else:
             response = "Usage: /genkey <amount> <hours/days>"
     else:
-        response = "🫅ONLY OWNER CAN USE🫅"
+        response = "ONLY OWNER CAN USE💀"
 
     await update.message.reply_text(response)
 
