@@ -9,6 +9,8 @@ import datetime
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
+#insert your telegram username here
+OWNER_USERNAME = "@venomXcrazy"
 # Insert your Telegram bot token here
 BOT_TOKEN = '7255048090:AAFpMpH9KDNrr3BpnlAlraE5c2UkqhlSY5w'
  
@@ -90,11 +92,11 @@ async def genkey(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
                 save_keys()
                 response = f"Key generated: {key}\nExpires on: {expiration_date}"
             except ValueError:
-                response = "Please specify a valid number and unit of time (hours/days)."
+                response = "Please specify a valid number and unit of time (hours/days) script by @venomXcrazy."
         else:
             response = "Usage: /genkey <amount> <hours/days>"
     else:
-        response = "ONLY OWNER CAN USE💀"
+        response = "ONLY OWNER CAN USE💀OWNER {OWNER_USERNAME}"
 
     await update.message.reply_text(response)
 
