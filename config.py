@@ -5,10 +5,10 @@
 BOT_TOKEN=("7255048090:AAFpMpH9KDNrr3BpnlAlraE5c2UkqhlSY5w")
 
   #Enter Your telegram username here without @
-OWNER_USERNAME=("")
+OWNER_USERNAME=("venomXcrazy")
 
   #Enter your admin id here Get it from @missRose_bot by typing /info
-ADMIN_ID=("")
+ADMIN_ID=("5588464519")
 
 
 
