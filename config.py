@@ -8,7 +8,7 @@ BOT_TOKEN=("7424479555:AAG21En_vWWhzLaUAhKj4J-DoZaLLV3KBH4")
 OWNER_USERNAME=("venomXcrazy")
 
   #Enter your admin id here Get it from @missRose_bot by typing /info
-ADMIN_ID=("5588464519")
+ADMIN_IDS=("5588464519")
 
 
 
